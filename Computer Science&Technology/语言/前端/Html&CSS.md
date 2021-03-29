@@ -1,0 +1,93 @@
+#CS/前端
+
+# Html
+
+## html基本框架
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title></title>
+	</head>
+	<body>
+	
+	</body>
+</html>
+```
+
+## 超链接
+
+- `./`：当前文件夹，可以省略
+- `../`：上一级文件夹
+- `href="tag_id"`：跳转到`id="tag_id"`处
+- `href="javascipt:;"`：不跳转
+
+
+
+# CSS
+
+## 引用外部样式
+
+```html
+<head>
+	<link rel="stylesheet" href="文件路径"/>
+</head>
+```
+
+## 解决高度塌陷
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+			.box1{
+				border: 1px solid red;
+			}
+			
+			.box2{
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+				
+				float: left;
+			}
+			
+			/*通过after伪类，选中box1的后边*/
+			/*
+			 * 可以通过after伪类向元素的最后添加一个空白的块元素，然后对其清除浮动，
+			 * 	这样做和添加一个div的原理一样，可以达到一个相同的效果，
+			 * 	而且不会在页面中添加多余的div，这是我们最推荐使用的方式，几乎没有副作用
+			 */
+			.clearfix::before,
+			.clearfix:after{
+				/*添加一个内容*/
+				content: "";
+				/*转换为一个块元素*/
+				display: table;
+				/*清除两侧的浮动*/
+				clear: both;
+			}
+			
+			/*
+			 * 在IE6中不支持after伪类,
+			 * 	所以在IE6中还需要使用hasLayout来处理
+			 */
+			/* .clearfix{
+				zoom:1;
+			}
+			 */
+		</style>
+	</head>
+	<body>
+		<div class="box1 clearfix">
+			<div class="box2"></div>
+		</div>
+	</body>
+</html>
+
+```
