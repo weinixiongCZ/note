@@ -27,7 +27,7 @@ $$
 $$
 
 # 圆锥曲线
-## 圆
-## 椭圆
-## 双曲线
+## Circle
+## Ellipse
+## Hyperbolic
 ## 抛物线
