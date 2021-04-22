@@ -1,5 +1,0 @@
-
-
-# Day Planner
-
-# note
