@@ -6,8 +6,8 @@
 
 ## Kepler's three laws
 
-1.  [[elementary geometry#Ellipse|Ellipse]] Orbit: ${\displaystyle \color{red} r=\frac{p}{1+e\cos \theta }}$
-2.  The relationship between the period and the semi-major axis of the orbit of a planet in a homologous system: ${\displaystyle\color{red} \frac{T^{2}}{a^{3}} =C_{2}}$（ $C_{2}$  is only associated with stars）
+1. [[elementary geometry#Ellipse|Ellipse]] Orbit: ${\displaystyle \color{red} r=\frac{p}{1+e\cos \theta }}$
+2. The relationship between the period and the semi-major axis of the orbit of a planet in a homologous system: ${\displaystyle\color{red} \frac{T^{2}}{a^{3}} =C_{2}}$（ $C_{2}$  is only associated with stars）
 3. area velocity: $\color{red} r{\displaystyle ^{2}\frac{\mathrm{d} \theta }{\mathrm{d} t} =C_{1}}$（ $C_{1}$ A is only associated with planet）
 
 ## Newton's Law of Gravitation
@@ -33,6 +33,7 @@ $$
 $$
 
 ## Planetary Trajectory
+
 Konwn: planet angular-momentum $L$, energy $E$, $G$, star's $M$, planet's $m$
 
 $$
@@ -56,7 +57,6 @@ Discriminant of The quadratic functions $\displaystyle f\left(\frac{1}{r}\right)
 ### General Suspension Line
 
 ![](https://gitee.com/weinixiong97/chrome-bookmark/raw/master/Image/悬链线.png)
-
 
 Let the tension at the lowest point of the rope be $T$, According to the relationship between gravity and tension
 
