@@ -1,4 +1,4 @@
-#数学
+#math
 
 - [[Elementary Number Theory.pdf]]
 

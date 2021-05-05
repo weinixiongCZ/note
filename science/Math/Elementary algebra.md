@@ -1,4 +1,4 @@
-#数学
+#math
 
 # Polynomial equation
 
@@ -33,7 +33,7 @@ let $\displaystyle f_{n} =a^{n} +b^{n} +c^{n}$，we get $\displaystyle f_{n} =f_
 
 #### Broad form
 
-see in [[初等分析#加权平均不等式|加权平均不等式]]
+see in [[Elementary analysis#加权平均不等式|加权平均不等式]]
 
 #### Proofs based on mathematical induction
 
@@ -41,6 +41,6 @@ The following methods are all based on [[Mathematical Logic#mathematical inducti
 
 ## Analytical inequalities
 
-see in [[初等分析#分析不等式|分析不等式]]
+see in [[Elementary analysis#分析不等式|分析不等式]]
 
 ## Geometric inequalities

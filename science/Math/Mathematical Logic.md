@@ -1,3 +1,3 @@
-#数学
+#math
 
 # mathematical induction
