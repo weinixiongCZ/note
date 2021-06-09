@@ -59,7 +59,11 @@ $\displaystyle {\displaystyle Z_{n}}$ 是 $\displaystyle n$ 的互质剩余类�
 
 ## 莱布尼茨三角
 
-$\begin{gathered}\end{gathered}$$\begin{gathered}a_{n,k}+a_{n,k+1}=a_{n-1,k}&a_{n,k} =({(n+1)\mathrm{C}^{k}_{n}})^{-1}\end{gathered}$
+$$
+a_{n,k}+a_{n,k+1}=a_{n-1,k}\ \ \ 
+a_{n,k} =({(n+1)\mathrm{C}^{k}_{n}})^{-1}
+$$
+
 $$
 \begin{array}{ c c c c c c c c c }
    &  &  &  & {\displaystyle \frac{1}{1}} &  &  &  & \\
@@ -67,7 +71,7 @@ $$
    &  & {\displaystyle \frac{1}{3}} &  & {\displaystyle \frac{1}{6}} &  & {\displaystyle \frac{1}{3}} &  & \\
    & {\displaystyle \frac{1}{4}} &  & {\displaystyle \frac{1}{12}} &  & {\displaystyle \frac{1}{12}} &  & {\displaystyle \frac{1}{4}} & \\
   {\displaystyle \cdots } &  & {\displaystyle \cdots } &  & {\displaystyle \cdots } &  & {\displaystyle \cdots } &  & {\displaystyle \cdots }
-  \end{array}
+\end{array}
 $$
 
 
