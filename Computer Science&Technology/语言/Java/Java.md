@@ -1,12 +1,12 @@
 #CS/Java
 
 # 参考
-- [[Java核心技术 卷1 基础知识 原书第10版.pdf]]
-- [[Java核心技术 卷2 高级特性 原书第10版.pdf]]
+- [[Java核心技术 卷1 基础知识.pdf]]
+- [[Java核心技术 卷2 高级特性.pdf]]
 - [[Java基础.pdf]]
 - [[Java编程那些事儿.pdf]]
 - [[Java编程思想第4版.pdf]]
-- [[Fundamentals of Java Programming.pdf]]
+- [[Java编程基础.pdf]]
 
 # 软件构成
 
